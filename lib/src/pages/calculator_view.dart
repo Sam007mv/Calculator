@@ -13,7 +13,7 @@ class CalculatorView extends StatelessWidget {
           children: [
             Container(
               height: MediaQuery.of(context).size.height * 0.45,
-              padding: EdgeInsets.only(top: 30.0, right: 5.0, left: 5.0),
+              padding: EdgeInsets.only(top: 30.0, right: 6.0, left: 6.0),
               alignment: Alignment.topRight,
               child: Text(
                 Provider.of<CalculationViewModel>(context).output,
